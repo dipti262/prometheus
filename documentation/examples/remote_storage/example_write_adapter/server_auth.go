@@ -83,5 +83,5 @@ func main() {
 
       })
       //http.Handle("/example", handler)
-        log.Fatal(http.ListenAndServe("<FIXME_localhostIP:port>", nil))
+        log.Fatal(http.ListenAndServe("localhost:1234", nil))
 }
